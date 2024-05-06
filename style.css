@@ -1,0 +1,164 @@
+*{
+
+    /*  Primary */
+    
+    --Nutmeg: hsl(14, 45%, 36%);
+    --DarkRaspberry: hsl(332, 51%, 32%);
+    
+    /*  Neutral */
+    
+    --White: hsl(0, 0%, 100%);
+    --RoseWhite: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --LightGrey: hsl(30, 18%, 87%);
+    --WengeBrown: hsl(30, 10%, 34%);
+    --DarkCharcoal: hsl(24, 5%, 18%);
+}
+
+
+.main{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 25px;
+
+}
+body{
+    background-color: var(--LightGrey);
+
+}
+
+header {
+    font-family: "Young Serif", serif;
+    justify-content: center;
+    text-align: left;
+    h1{
+    font-size: 30px;
+    color: var(--DarkCharcoal);
+}
+
+p{
+    font-size: 16px ;
+    color: var(--WengeBrown);
+    font-family:'Outfit';
+    margin-bottom: 20px;
+}
+}
+img{
+    width: 100%;
+    object-fit: cover;
+    justify-content: center;
+    border-radius: 10px;
+}
+.preparacion {
+    
+    font-family: 'Outfit';
+    background-color: var(--RoseWhite);
+    border-radius: 15px;
+    padding-left: 20px;
+
+    h3{
+        color:var(--DarkRaspberry);
+    }
+    
+    ul{
+    color: var(--WengeBrown);
+    font-size: 16px;
+    }
+   
+    ul li{
+    margin-bottom: 10px;
+    }
+}
+
+.Ingredients {
+    h2{
+        font-family:"Young Serif", serif ;
+
+        color: var(--Nutmeg);
+    }
+    ul{
+        font-size: 16px;
+
+        font-family:'Outfit';
+        }
+    ul li{
+        margin-bottom: 15px;
+        color: var(--WengeBrown);
+    }
+    border-bottom: 1px solid var(--LightGrey);
+}
+ 
+.instrucciones  h2{
+    
+    font-family: "Young Serif", serif ;
+    color: var(--Nutmeg);
+}
+.instrucciones ol{
+    font-family: 'Outfit';
+    color: var(--WengeBrown);
+    span {
+        font-weight: bolder;
+    }
+    li{
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+}
+.instrucciones{
+    border-bottom: 1px solid var(--LightGrey);
+}
+.nutricion{
+    h2{
+        color: var(--Nutmeg);
+       font-family: "Young Serif", serif ;
+    }
+    p{
+        color: var(--WengeBrown);
+        font-family: 'Outfit';
+    }
+}
+.nut{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--LightGrey);
+    p{
+        margin-left: 30px;
+        font-family:'Outfit' ;
+        color: var(--WengeBrown);
+        font-size: 16px;
+    }
+    span{
+        color: var(--Nutmeg);
+        font-size: 16px;
+        font-weight: bolder;
+        font-family: 'Outfit';
+        width: 40%;
+
+    }
+}
+.nut1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    p{
+        margin-left: 30px;
+        font-family:'Outfit' ;
+        color: var(--WengeBrown);
+        font-size: 16px;
+    }
+    span{
+        color: var(--Nutmeg);
+        font-size: 16px;
+        font-weight: bolder;
+        font-family: 'Outfit';
+        width: 40%;
+    
+    }
+
+}
